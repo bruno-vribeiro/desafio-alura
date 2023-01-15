@@ -1,0 +1,171 @@
+.principal {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border: solid 1px black;
+    background: #F3F5FC;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.input input{
+    position: absolute;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    border-style: none;
+    color: #0A3871;
+    background: #F3F5FC;
+}
+
+.input ::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+}
+
+.letras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    height: 18px;
+    left: 240px;
+    top: 451px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 500px;
+    height: 67px;
+    left: 240px;
+    top: 485px;
+}
+
+#button1{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 250px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    
+}
+
+#button2 {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 250px;
+    height: 67px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#button1:first-child {
+    color: #D8DFE8;
+}
+
+
+.aside {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 900px;
+    top: 40px;
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+
+#mensagem-erro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 336px;
+    height: 222px;
+    left: 32px;
+    top: 319px;
+
+}
+
+.input2 {
+    position: absolute;
+    width: 336px;
+    height: 222px;
+    left: 32px;
+    top: -300px;
+}
+
+#mensagem-erro img {
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: -300px;
+
+}
+
+#mensagem-erro .p {
+    position: absolute;
+    top: 53px;
+}
