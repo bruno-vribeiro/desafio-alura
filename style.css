@@ -12,6 +12,29 @@ main {
     height: 89vh;
     border: solid 1px red;
 }
+
+.input-principal {
+    margin: 5% 0 0 20%;
+
+}
+.input-principal input{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border-style: none;
+
+
+    color: #0A3871;
+}
+
+.buttons-principais{
+    position: relative;
+    left: 20%;
+    top: 50%;
+}
+
 .secundaria {
     width: 40%;
     height: 89vh;
@@ -26,6 +49,5 @@ main {
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
     border-radius: 32px
-
 }
 
