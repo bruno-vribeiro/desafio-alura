@@ -1,8 +1,9 @@
 body {
+    font-family: 'Inter';
+    font-style: normal;
     width: 99vw;
     height: 97vh;
     background: #E5E5E5;
-    border:solid 1px black;
 }
 main {
     display: flex;
@@ -10,7 +11,7 @@ main {
 .principal {
     width: 60%;
     height: 89vh;
-    border: solid 1px red;
+
 }
 
 .input-principal {
@@ -18,29 +19,86 @@ main {
 
 }
 .input-principal input{
-    font-family: 'Inter';
-    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
     border-style: none;
 
-
+    background: #E5E5E5;
     color: #0A3871;
+}
+.input-principal input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
 .buttons-principais{
+    width: 70%;
     position: relative;
     left: 20%;
     top: 50%;
 }
 
+.buttons-principais p {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+    opacity: 0.8;
+}
+
+.buttons {
+    height: 67px;
+    display: flex;
+}
+
+#criptografar {
+    margin-right: 10px;
+    width: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+    background: #0A3871;
+    border-radius: 24px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#descriptografar {
+    width: 50%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
 .secundaria {
     width: 40%;
     height: 89vh;
-    border: solid 1px blue;
 }
-.secundaria div {
+
+.secundaria img {
+    margin: 20% 20% 0 20%;
+}
+
+
+.secundaria p {
+    text-align: center;
+    margin-top: 5%;
+}
+.div-secundaria {
     width: 400px;
     position: relative;
     top: -41px;
@@ -49,5 +107,9 @@ main {
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
     border-radius: 32px
+}
+
+.secundaria div:nth-child(2){
+    margin-top: 20%;
 }
 
